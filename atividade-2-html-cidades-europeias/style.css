@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: url("https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1420&q=80");
+    height: 500px;
+    background-position: center;
+    text-align: center;
+    color: rgb(112, 70, 152);
+    font-size: 25px;
+    text-shadow: 2px 2px #7e1388;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.container-history, 
+.container-video,
+.form-container{
+    display: flex;
+    padding: 20px;
+}
+
+.text-h3,
+.list-h3,
+.video-h3 {
+    color: #7e1388;
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.text-img,
+.video,
+.form-img {
+    width: 100%;
+    height: 450px;
+    margin-left: 30px;
+}
+
+.text-text,
+.video-text,
+form {
+    padding: 40px;
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    color: #7e1388;
+}
+
+.lista-container {
+    padding: 20px;
+    color: #7e1388;
+
+}
+
+.lista-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-lista {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.lista-img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.form{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-h4{
+    color: #7e1388;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.form label {
+    font-size: 18px;
+}
+
+.input{
+    margin: 15px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #7e1388;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.input:focus, .textarea:focus{
+    outline: none;
+}
+
+.textarea{
+    margin: 15px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid #7e1388;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.submit{
+    margin: 15px auto;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #7e1388;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bolder;
+    color: #7e1388;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.submit:hover{
+    background-color: #b189b5;
+}
+
+footer{
+    background-color: #7e1388;
+    color: #ffff;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.footer-text{
+    font-size: 15px;
+    margin-top: 10px;
+}
