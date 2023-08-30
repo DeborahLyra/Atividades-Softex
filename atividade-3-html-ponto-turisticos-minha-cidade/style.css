@@ -1,175 +1,172 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(188, 223, 206);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(188, 223, 206);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 header {
-    background-image: url("https://partiupelomundo.com/wp-content/uploads/2016/03/Olinda-centro-historico-e1458960581470.jpg");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: left;
-    color: rgb(30, 149, 90);
-    font-size: 25px;
-    text-shadow: 2px 2px #1854bb;
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    
+  background-image: url("https://partiupelomundo.com/wp-content/uploads/2016/03/Olinda-centro-historico-e1458960581470.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  color: rgb(30, 149, 90);
+  font-size: 25px;
+  text-shadow: 2px 2px #1854bb;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
 }
 
 h1 {
-    margin-top: 50px; 
+  margin-top: 50px;
 }
 
-header h1, h2 {
-    margin-left: 50px;
-    max-width: 500px;
+header h1,
+h2 {
+  margin-left: 50px;
+  max-width: 500px;
 }
 
 .container-history,
 .container-video,
 .form-container {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 
 .text-h3,
 .list-h3,
 .video-h3 {
-    color: rgb(12, 107, 60);
-    margin-left: 40px;
-    font-size: 30px;
-    margin-top: 30px;
+  color: rgb(12, 107, 60);
+  margin-left: 40px;
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 .text-img,
 .video,
 .form-img {
-    width: 100%;
-    height: 450px;
-    margin-left: 30px;
+  width: 100%;
+  height: 450px;
+  margin-left: 30px;
 }
 
 .text-text,
 .video-text,
 .favotitos,
 form {
-    padding: 40px;
-    width: 100%;
-    text-align: justify;
-    font-size: 20px;
-    color: rgb(12, 107, 60);
-    
+  padding: 40px;
+  width: 100%;
+  text-align: justify;
+  font-size: 20px;
+  color: rgb(12, 107, 60);
 }
 
 .lista-container {
-    padding: 20px;
-    color: rgb(12, 107, 60);
-
+  padding: 20px;
+  color: rgb(12, 107, 60);
 }
 
 .lista-imgs {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .lista-lista {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 18px;
-    margin: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  margin: 15px;
 }
 
 .lista-img {
-    width: 400px;
-    height: 300px;
-    margin-bottom: 10px;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px;
 }
 
 .form {
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-h4 {
-    color: rgb(12, 107, 60);
-    margin-left: 40px;
-    margin-bottom: 20px;
-    font-size: 25px;
+  color: rgb(12, 107, 60);
+  margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .form label {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .input {
-    margin: 15px;
-    height: 40px;
-    border-radius: 10px;
-    border: 2px solid rgb(12, 107, 60);
-    font-size: 16px;
-    padding: 10px;
+  margin: 15px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgb(12, 107, 60);
+  font-size: 16px;
+  padding: 10px;
 }
 
 .input:focus,
 .textarea:focus {
-    outline: none;
+  outline: none;
 }
 
 .textarea {
-    margin: 15px;
-    height: 80px;
-    border-radius: 10px;
-    border: 2px solid rgb(12, 107, 60);
-    font-size: 16px;
-    padding: 10px;
+  margin: 15px;
+  height: 80px;
+  border-radius: 10px;
+  border: 2px solid rgb(12, 107, 60);
+  font-size: 16px;
+  padding: 10px;
 }
 
 .submit {
-    margin: 15px auto;
-    height: 40px;
-    width: 200px;
-    border-radius: 10px;
-    border: 2px solid rgb(12, 107, 60);
-    font-size: 16px;
-    padding: 10px;
-    font-weight: bolder;
-    color:rgb(12, 107, 60);
-    cursor: pointer;
-    background-color: transparent;
+  margin: 15px auto;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid rgb(12, 107, 60);
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bolder;
+  color: rgb(12, 107, 60);
+  cursor: pointer;
+  background-color: transparent;
 }
 
 .submit:hover {
-    background-color: #66b780;
-    color: #ffff;
+  background-color: #66b780;
+  color: #ffff;
 }
 
 footer {
-    background-color: rgb(12, 107, 60);
-    color: #ffff;
-    padding: 30px;
-    font-size: 18px;
-    
+  background-color: rgb(12, 107, 60);
+  color: #ffff;
+  padding: 30px;
+  font-size: 18px;
 }
 
 .footer-text {
-    font-size: 15px;
-    margin-top: 10px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
-.mapa{
-    width: 100%;
-    height: 200px;
-    margin-top: 20px;
+.mapa {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
 }
