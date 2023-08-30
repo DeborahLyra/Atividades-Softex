@@ -15,7 +15,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
-    color: rgb(38, 212, 125);
+    color: rgb(30, 149, 90);
     font-size: 25px;
     text-shadow: 2px 2px #1854bb;
     display: flex;
@@ -30,6 +30,7 @@ h1 {
 
 header h1, h2 {
     margin-left: 50px;
+    max-width: 500px;
 }
 
 .container-history,
