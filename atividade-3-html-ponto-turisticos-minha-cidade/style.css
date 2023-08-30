@@ -59,12 +59,14 @@ header h1, h2 {
 
 .text-text,
 .video-text,
+.favotitos,
 form {
     padding: 40px;
     width: 100%;
     text-align: justify;
     font-size: 20px;
     color: rgb(12, 107, 60);
+    
 }
 
 .lista-container {
