@@ -23,12 +23,12 @@ header {
   height: 500px;
 }
 
-h1 {
+#titulo-h1 {
   margin-top: 50px;
 }
 
-header h1,
-h2 {
+#titulo-h1,
+#titulo-h2 {
   margin-left: 50px;
   max-width: 500px;
 }
